@@ -1,0 +1,12 @@
+<div class="container">
+ <footer class="footer">
+  <small>
+   Copyright &copy; <a href="https://alpha-blog-pinky.herokuapp.com/">Alpha Blog</a> | <p>by Pinky Das</p>
+  </small
+  <nav>
+   <ul>
+    <li><%= link_to "About", about_path %></li> 
+   </ul>
+  </nav>
+ </footer>
+</div>
