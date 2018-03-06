@@ -32,7 +32,9 @@ $navbar-default-bg: black;
 }
 
 .article-body {
-
+ border: 1px solid #eaeaea;
+ padding-top: 15px;
+ padding-bottom: 15px;
 }
 
 .center {
@@ -59,10 +61,10 @@ $navbar-default-bg: black;
 }
 
 .footer {
- margin-top: 10px;
+ margin-top: 45px;
  padding-top: 5px;
- border-top: 1px #eaeaea;
- color: black;
+ border-top: 1px solid #eaeaea;
+ color: #777;
 }
 
 .footer a:hover{
