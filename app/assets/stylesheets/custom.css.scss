@@ -17,9 +17,14 @@ $navbar-default-bg: black;
   text-decoration: none;
 }
 
+.article-meta-details {
+  border-top: 1px #eaeaea;
+  margin-top: 15px;
+}
+
 .article-actions {
  border-top: 1px solid #eaeaea;
- padding-top: 5px;
+ padding-top: 15px;
 }
 
 .description {
@@ -36,6 +41,7 @@ $navbar-default-bg: black;
  padding-top: 15px;
  padding-bottom: 15px;
 }
+
 
 .center {
  text-align: center;
