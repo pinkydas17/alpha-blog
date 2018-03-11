@@ -10,7 +10,8 @@ def new
 end
 
 def show
-
+ @category = Category.find(params[:id])
+ @category_articles = @category.articles.paginate(page: params[:page], per_page: 5)
 end
 
 def create
@@ -33,5 +34,5 @@ def requireadmin
  flash[:danger] = "Only admins can perform that action"
  redirect_to categories_path
 end
-
+end
 end
